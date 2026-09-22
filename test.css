@@ -22,20 +22,155 @@
     background-color: antiquewhite;
 }
 .header1{
+    display: flex;
+    justify-content: space-between;
     width: 123.94px;
     height: 40px;
-    background-color: black;
+    /* background-color: black; */
 }
-.header2{
-    width: 242.83px;
+.logo_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
     height: 40px;
-    background-color: black;
+    border-radius: 9999px;
+    background-color: #D9EFF7;
 }
+.tree_icon{
+    width: 24px;
+    height: 20px;
+    color: #065161;
+}
+.header1_text{
+    display: flex;
+    flex-direction: column;
+    width: 71.94px;
+    height: 38px;
+    /* background-color: black; */
+}
+.header1_text1{
+    width: 71.94px;
+    height: 26px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.45px;
+    color: #065161;
+}
+.header1_text2{
+    width: 140.58px;
+    height: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.55px;
+    color: #70787C;
+}
+
+.header2{
+    display: flex;
+    align-items: center;
+    width: 424px;
+    height: fit-content;
+    gap: 24px;
+    /* background-color: black; */
+}
+.nav_text1{
+    width: 124.28px;
+    height: 40px;
+    border-radius: 9999px;
+    padding: 8px 16px;
+    background-color: #2B697A;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.nav_text{
+    height: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.14px;
+    color: #40484B;
+}
+
 .header3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 397.16px;
     height: 48px;
-    background-color: black;
+    gap: 16px;
+    /* background-color: black; */
 }
+.header3-1{
+    display: flex;
+    width: 71.17px;
+    height: 24px;
+    border-radius: 9999px;
+    padding: 4px 12px;
+    gap: 4px;
+    background-color: #ECF5FA;
+}
+.lang_icon{
+    width: 15px;
+    height: 15px;
+    color: #70787C;
+}
+.en{
+    width: 16.17px;
+    height: 16px;
+}
+.header3-2{
+    width: 86.55px;
+    height: 44px;
+    min-height: 44px;
+    border-radius: 9999px;
+    padding: 11.5px 16px 12.5px 16px;
+    background-color: #D9EFF7;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.14px;
+    color: #065161;
+}
+.header3-3{
+    width: 159.44px;
+    height: 48px;
+    min-height: 48px;
+    border-radius: 9999px;
+    padding: 13.5px 24px 14.5px 24px;
+    background-color: #2B697A;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.14px;
+    color: #FFFFFF;
+}
+.header3-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 9999px;
+    background-color: #065161;
+}
+.fa-user{
+    /* width: 12px; */
+    /* height: 12px; */
+    color: #FFFFFF;
+}
+
+
 .tr{
     position: absolute;
     z-index: 3;
@@ -94,8 +229,40 @@
     width: 286.75px;
     height: 34px;
     display: flex;
+    border: 1px;
+    padding: 4px;
+    gap: 8px;
     border-radius: 9999px;
     background-color: white;
+}
+.pure-magic{
+    width: 112.17px;
+    height: 24px;
+    border-radius: 9999px;
+    padding: 4px 16px;
+    background-color: #194553;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 1.1px;
+    color: #D9EFF7;
+}
+.expedition2024{
+    width: 129.58px;
+    height: 24px;
+    padding: 4px 12px;
+
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.55px;
+    color: #194553;
+}
+.star_icon{
+    width: 19px;
+    height: 19px;
 }
 .hero_text2{
     display: flex;

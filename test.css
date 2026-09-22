@@ -221,7 +221,29 @@
     padding: 72px 0px;
 }
 .itinerary_section-container{
-    width: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1280px;
+    height: 730px;
+    max-width: 1280px;
+    padding: 0px, 48px;
+    gap: 48px;
+    background-color: rgb(192, 255, 255);
+}
+.itinerary_section-top{
+    width: 672px;
+    height: 168px;
+    max-width: 672px;
+    padding: 24px;
+    gap: 8px;
+    background-color: #D9EFF7;
+}
+.itinerary_section-bottom{
+    width: 1184px;
+    height: 514px;
+    max-width: 1184px;
+    background-color: #162125;
 }
 
 
@@ -229,12 +251,15 @@
 
 /* jkghdahgdgkhreidghuirehgasdfghjklkjhgsdfghjklkjhgfdsdfgklkjhgfd */
 
-
 .pricing_tiers{
     width: 1280px;
     height: 933px;
+    gap: 72px;
     background-color: green;
 }
+
+
+/* jkghdahgdgkhreidghuirehgasdfghjklkjhgsdfghjklkjhgfdsdfgklkjhgfd */
 .trust_section{
     width: 1280px;
     height: 670px;

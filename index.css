@@ -11,14 +11,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
-.body {
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  width: 1280px;
-  height: 5128.75px;
-}
 .header {
   position: sticky;
   top: 0;

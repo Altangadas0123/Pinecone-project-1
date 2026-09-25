@@ -37,9 +37,10 @@
   border-radius: 9999px;
   background-color: #d9eff7;
 }
-.tree_icon {
-  width: 24px;
-  height: 20px;
+.lucide.lucide-trees.preview-icon{
+  transform: scale(1.3);
+  width: 40%;
+  height: 40%;
   color: #065161;
 }
 .header1_text {
@@ -111,21 +112,33 @@
 }
 .header3-1 {
   display: flex;
+  justify-content: space-evenly;
   width: 71.17px;
   height: 24px;
   border-radius: 9999px;
-  padding: 4px 12px;
+  padding: 4px 5px;
   gap: 4px;
   background-color: #ecf5fa;
 }
 .lang_icon {
   width: 15px;
   height: 15px;
+  transform: scale(0.9);
   color: #70787c;
 }
 .en {
-  width: 16.17px;
+  width: 10px;
   height: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.55px;
+  color: #141D21;
+}
+.fa-solid.fa-angle-down{
+  transform: scale(0.7);
+  color: #70787c;
 }
 .header3-2 {
   width: 86.55px;
@@ -342,6 +355,7 @@
 }
 .hero_text5-texts{
     display: flex;
+    align-items: center;
     width: 215px;
     height: 44px;
     border-radius: 9999px;
@@ -349,10 +363,10 @@
     gap: 8px;
     background-color: white;
 }
-.t5-house-icon{
-  width: 16.67px;
-  height: 13.33px;
-  background-color: #065161;
+.fa-brands.fa-houzz{
+  width: 13px;
+  height: 18px;
+  color: #065161;
 }
 .t5-text1{
   width: 125.33px;
@@ -364,10 +378,10 @@
   letter-spacing: 0.14px;
   color: #194553;
 }
-.t5-compus-icon{
+.fa-regular.fa-compass{
   width: 16.67px;
   height: 16.67px;
-  background-color: #065161;
+  color: #065161;
 }
 .t5-text2{
   width: 106.13px;
@@ -379,13 +393,13 @@
   letter-spacing: 0.14px;
   color: #194553;
 }
-.t5-peoples-icon{
+.fa-solid.fa-users{
   width: 20px;
   height: 20px;
-  background-color: #065161;
+  color: #065161;
 }
 .t5-text3{
-  width: 120.92px;
+  width: 130.92px;
   height: 20px;
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -394,10 +408,10 @@
   letter-spacing: 0.14px;
   color: #194553;
 }
-.t5-shield-icon{
+.fa-solid.fa-shield{
   width: 13.33px;
   height: 16.67px;
-  background-color: #065161;
+  color: #065161;
 }
 .t5-text4{
   width: 140.42px;
@@ -427,10 +441,10 @@
   padding: 8px 16px;
   gap: 12px;
 }
-.calendar-icon{
+.fa-regular.fa-calendar{
   width: 18px;
   height: 20px;
-  background-color: #065161;
+  color: #065161;
 }
 .t6-1-texts{
   width: 145.36px;
@@ -471,10 +485,10 @@
   gap: 12px;
   /* background-color: #194553; */
 }
-.loc-icon{
+.fa-solid.fa-location-dot{
   width: 14px;
   height: 20px;
-  background-color: #065161;
+  color: #065161;
 }
 .t6-3-texts{
   width: 154.75x;
@@ -534,11 +548,11 @@
   letter-spacing: 0.14px;
   color: white;
 }
-.t6-5-down_icon{
-  width: 10.5px;
+.fa-solid.fa-arrow-down{
+  transform: scale(0.9);
+  width: 10px;
   height: 15px;
   color: white;
-  background-color: #065161;
 }
 .t6-5-container2{
   width: 96.47px;
@@ -591,10 +605,10 @@
     gap: 8px;
     /* background-color: green; */
 }
-.featured_nav-top-1-1mounten-icon{
+.fa-solid.fa-mountain{
   width: 18.33px;
   height: 10px;
-  background-color: #525e62;
+  /* background-color: #525e62; */
   color: #065161;
 }
 .featured_nav-top-1-1text{
@@ -672,9 +686,6 @@
     gap: 8px;
     /* background-color: #065161; */
 }
-
-
-
 .featured_nav-pic1-text1{
     gap: 8px;
     display: flex;
@@ -750,10 +761,11 @@
     gap: 4px;
     /* background-color: gray; */
 }
-.featured_nav-pic1-text4-c1-water_icon{
+.fa-solid.fa-droplet{
+  transform: scale(0.8);
   width: 10.67px;
   height: 13.33px;
-  background-color: #D9EFF7;
+  color: #D9EFF7;
 }
 .featured_nav-pic1-text4-c1-text{
   width: 177.61px;
@@ -772,10 +784,11 @@
     gap: 4px;
     /* background-color: gray; */
 }
-.featured_nav-pic1-text4-c2-arrow_icon{
-  width: 5.33px;
+.fa-solid.fa-arrows-up-down{
+  transform: scale(0.7);
+  width: 5px;
   height: 12px;
-  background-color: #D9EFF7;
+  color: #D9EFF7;
 }
 .featured_nav-pic1-text4-c2-text{
   width: 91.67px;
@@ -787,9 +800,6 @@
   letter-spacing: 0.55px;
   color: #D9EFF7;
 }
-
-
-
 .featured-pic2 {
   display: flex;
   flex-direction: column;
@@ -898,10 +908,11 @@
     gap: 4px;
     /* background-color: gray; */
 }
-.featured_nav-pic2-text4-c1-boat_icon{
+.fa-solid.fa-sailboat{
+  transform: scale(0.8);
   width: 13.33px;
   height: 14.67px;
-  background-color: #D9EFF7;
+  color: #D9EFF7;
 }
 .featured_nav-pic2-text4-c1-text{
   width: 112.55px;
@@ -920,10 +931,15 @@
     gap: 4px;
     /* background-color: gray; */
 }
-.featured_nav-pic2-text4-c2-tree_icon{
+.lucide.lucide-tree-deciduous.preview-icon{
+  transform: scale(1.5);
+  color: black;
+}
+.fa-solid.fa-tree{
+  transform: scale(0.7);
   width: 10.67px;
   height: 13.33px;
-  background-color: #D9EFF7;
+  color: #D9EFF7;
 }
 .featured_nav-pic2-text4-c2-text{
   width: 86.16;
@@ -1162,10 +1178,10 @@
     gap: 8px;
     background-color: #D9EFF7;
 }
-.wr_icon{
+.fa-solid.fa-route{
   width: 13.5px;
   height: 13.5px;
-  background-color: black;
+  color: black;
 }
 .intinerar_roadmap{
   width: 137.27px;
@@ -1282,10 +1298,10 @@
   gap: 8px;
   /* background-color: #065161; */
 }
-.itinerary-box1-text2-icon{
+.fa-solid.fa-bus-simple{
   width: 12px;
   height: 14.25px;
-  background-color: black;
+  color: #065161;
 }
 .itinerary-box1-text2-text{
   width: 238.44px;
@@ -1375,10 +1391,9 @@
   gap: 8px;
   /* background-color: #065161; */
 }
-.itinerary-box2-text2-icon{
+.fa-regular.fa-chess-rook{
   width: 16.5px;
   height: 15.75px;
-  background-color: black;
   color: #065161;
 }
 .itinerary-box2-text2-text{
@@ -1471,10 +1486,9 @@
   gap: 8px;
   /* background-color: #065161; */
 }
-.itinerary-box3-text2-icon{
+.fa-solid.fa-person-hiking{
   width: 16.5px;
   height: 15.75px;
-  background-color: black;
   color: #065161;
 }
 .itinerary-box3-text2-text{
@@ -1566,11 +1580,10 @@
   gap: 8px;
   /* background-color: #065161; */
 }
-.itinerary-box4-text2-icon{
+.fa-solid.fa-tents{
   width: 18px;
   height: 15.75px;
   color: #065161;
-  background-color: black;
 }
 .itinerary-box4-text2-text{
   width: 235.47px;
@@ -1687,10 +1700,9 @@
   gap: 4px;
   background-color: #E6EFF5;
 }
-.itinerary-box5-text4-a-icon{
+.fa-solid.fa-paw{
   width: 13.33px;
   height: 12.67px;
-  background-color: #000000;
   color: #194553;
 }
 .itinerary-box5-text4-a-text{
@@ -1723,7 +1735,7 @@
   width: 13.33px;
   height: 12px;
   color: #194553;
-  background-color: #000000;
+  transform: scale(0.5);
 }
 .itinerary-box5-text4-b-text{
   width: 159.34px;
@@ -1769,11 +1781,12 @@
   padding: 4px 16px;
   background-color: #d9eff7;
 }
-.pricing_tiers-top1-icon{
-  width: 16.5px;
+.lucide.lucide-receipt.preview-icon{
+  transform: scale(1.7);
+  width: 12px;
   height: 12px;
   color: #065161;
-  background-color: #065161;
+  /* background-color: #065161; */
 }
 .pricing_tiers-top1-text{
   width: 135.28px;
@@ -1946,11 +1959,12 @@
   height: 40px;
   gap: 8px;
 }
-.pricing_tiers-bottom1-text3-c3-check_icon{
+.lucide.lucide-check.preview-icon{
+  transform: scale(1.6);
   width: 13.58px;
   height: 10.02px;
   color: #446744;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 .pricing_tiers-bottom1-text3-c3-text{
   width: 206.94px;
@@ -2012,8 +2026,7 @@
 .pricing_tiers-bottom1-text3-c6-line_icon{
   width: 11.67px;
   height: 1.67px;
-  color: #70787C;
-  background-color: #000000;
+  background-color: #70787C;
 }
 .pricing_tiers-bottom1-text3-c6-text{
   width: 217.42px;
@@ -2058,6 +2071,34 @@
   border-radius: 16px;
   padding: 48px;
   background-color: #FFFFFF
+}
+.dalii-button{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 93.32px;
+  top: -14px;
+  width: 186.67px;
+  height: 40px;
+  border-radius: 9999px;
+  padding: 4px 16px;
+  background-color: #D97706;
+}
+.dalii-text-dad{
+  display: flex;
+  flex-direction: column;
+  width: 14.67px;
+  height: 14px;
+}
+.dalii-text{
+  width: 103.62px;
+  height: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.55px;
+  color: #FFFFFF;
 }
 .pricing_tiers-bottom2-texts{
   display: flex;
@@ -2157,11 +2198,17 @@
   height: 20px;
   gap: 8px;
 }
-.pricing_tiers-bottom2-text3-c2-big_check_icon{
+.lucide.lucide-badge-check.preview-icon-dalii{
+  width: 16.67px;
+  height: 16.67px;
+  color: #ffffff;
+  /* background-color: #000000; */
+}
+.lucide.lucide-badge-check.preview-icon{
   width: 16.67px;
   height: 16.67px;
   color: #065161;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 .pricing_tiers-bottom2-text3-c2-text{
   width: 240.31px;
@@ -2242,11 +2289,11 @@
   height: 20px;
   gap: 8px;
 }
-.pricing_tiers-bottom2-text3-c6-line_icon{
-  width: 13.58px;
+.lucide.lucide-move-right.preview-icon{
+  transform: scale(2);
+  width: 27px;
   height: 10.02px;
-  color: #446744;
-  background-color: #000000;
+  color: #FFFFFF;
 }
 .pricing_tiers-bottom2-text3-c6-text{
   width: 249.33px;
@@ -2656,11 +2703,12 @@
   gap: 8px;
   background-color: #E6EFF5;
 }
-.trust_section-text_container1-text4-container2-bag_icon{
+.lucide.lucide-hospital.preview-icon{
+  transform: scale(1.2);
   width: 15px;
   height: 15px;
   color: #065161;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 .trust_section-text_container1-text4-container2-text{
   width: 221.42;
@@ -2690,11 +2738,12 @@
   gap: 4px;
   background-color: #ecf5fa;
 }
-.trust_section-box1-item1_heart_icon{
+.lucide.lucide-hand-heart.preview-icon{
+  transform: scale(1.3);
   width: 24px;
   height: 23.92px;
   color: #065161;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 .trust_section-box1-item2{
   width: 251.33px;
@@ -2728,11 +2777,12 @@
   gap: 4px;
   background-color: #ecf5fa;
 }
-.trust_section-box2-item1_heart_icon{
+.lucide.lucide-car.preview-icon{
+  transform: scale(1.4);
   width: 21px;
   height: 28px;
   color: #065161;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 .trust_section-box2-item2{
   width: 251.33px;
@@ -2763,11 +2813,12 @@
   gap: 4px;
   background-color: #ecf5fa;
 }
-.trust_section-box3-item1_heart_icon{
+.lucide.lucide-soup.preview-icon{
+  transform: scale(1.4);
   width: 21.72px;
   height: 23.33px;
   color: #065161;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 .trust_section-box3-item2{
   width: 251.33px;
@@ -2801,11 +2852,12 @@
   gap: 4px;
   background-color: #ecf5fa;
 }
-.trust_section-box4-item1_heart_icon{
+.lucide.lucide-user-round-group.preview-icon{
+  transform: scale(1.3);
   width: 25.67px;
   height: 18.67px;
   color: #065161;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 .trust_section-box4-item2{
   width: 251px;
@@ -3001,11 +3053,12 @@
   gap: 12px;
   background-color: #FFFFFF;
 }
-.footer_text-container1-box1-container3-leaf_icon{
+.lucide.lucide-leaf.preview-icon{
+  transform: scale(1.3);
   width: 14.16px;
   height: 14.16px;
   color: #446744;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 .footer_text-container1-box1-container3-texts{
   display: flex;
@@ -3113,12 +3166,13 @@
   gap: 8px;
   background-color: #FFFFFF;
 }
-.footer_text-container1-box4-container3-mail_icon{
+.lucide.lucide-mail.preview-icon{
+  transform: scale(1.3);
   width: 28.67px;
   height: 13.33px;
   padding-left: 12px;
   color: #70787C;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 .footer_text-container1-box4-container3-text{
   width: 208.16px;
@@ -3177,11 +3231,20 @@
   border-radius: 9999px;
   background-color: #FFFFFF;
 }
-.footer-world-icon{
-  width: 15px;
-  height: 15px;
+.lucide.lucide-globe.preview-icon{
+  transform: scale(1.2);
   color: #065161;
-  background-color: #000000;
+  /* background-color: #000000; */
+}
+.lucide.lucide-camera.preview-icon{
+  transform: scale(0.8);
+  color: #065161;
+  /* background-color: #000000; */
+}
+.lucide.lucide-messages-square.preview-icon{
+  transform: scale(0.7);
+  color: #065161;
+  /* background-color: #000000; */
 }
 .footer_text-container2 {
   display: flex;
@@ -3197,11 +3260,12 @@
   height: fit-content;
   gap: 8px;
 }
-.footer_text-container2-texts1-loc_icon{
+.lucide.lucide-map-pin.preview-icon{
+  transform: scale(1.3);
   width: 9.33px;
-  height: 13.33px;
+  height: 18px;
   color: #70787C;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 .footer_text-container2-texts1-text{
   width: 395.28px;
